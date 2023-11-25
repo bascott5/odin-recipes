@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <style>
+      body {
+        background-color: lightyellow;
+        margin: 0px 100px 0px 100px;
+      }
+
+      .navbar {
+        background-color: saddlebrown;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+      }
+      .navbar p {
+        display: inline-block;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 20px 0px 20px 0px;
+      }
+      .navbar a {
+        color: white;
+        text-decoration: none;
+        padding: 20px 20px 20px 25px;
+      }
+      .navbar a:hover {
+        background-color: burlywood;
+        color: black;
+      }
+
+      h1 {
+        font-family: Garamond, serif;
+        color: black;
+        font-size: 50px;
+        margin: 100px 0px 0px 0px;
+      }
+
+      .content {
+        float: right;
+        margin: 50px 0px 50px 50px; /*75px 0px 0px 50px*/
+        width: 100%;
+      }
+      .content p {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 10px 0px 20px 0px;
+      }
+      .content h4 {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0px 0px 0px 0px
+      }
+
+      .ingredients {
+        background-color: wheat;
+        float: right;
+        border-radius: 10px;
+        margin: 0px 0px 25px 50px;
+        padding: 25px 25px 25px 25px;
+        width: 25%; /*width: 35%;*/
+        min-width: 200px;
+      }
+      .ingredients h2 {
+        font-family: Garamond, serif;
+        color: black;
+      }
+      .ingredients ul {
+        padding: 0px 0px 0px 0px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .ingredients li {
+        color: black;
+        /*list-style-type: none;*/
+        margin: 10px 0px 0px 25px;
+      }
+
+      img {
+        display: block;
+        margin: 50px auto 0px auto; /*margin: 50px 0px 0px 25px;*/
+        width: 60%;
+        height: 600px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <p><a href="./index.html">Lasagna</a></p>
+      <p><a href="./spaghetti.html">Spaghetti Sauce</a></p>
+      <p><a href="./meatballs.html">Meatballs</a></p>
+    </div>
+    <h1>The Best Meatballs</h1>
+    <img src="./meatballs-3644047359.jpg" alt="meatballs" />
+    <div class="content">
+      <div class="ingredients">
+        <ul>
+          <h2>Ingredients</h1>
+          <li>1 pound ground beef</li>
+          <li>½ pound ground veal</li>
+          <li>½ pound ground pork</li>
+          <li>1 cup freshly grated Romano cheese</li>
+          <li>2 eggs</li>
+          <li>2 cloves garlic, minced</li>
+          <li>1 ½ tablespoons chopped Italian flat leaf parsley</li>
+          <li>salt and ground black pepper to taste</li>
+          <li>2 cups stale Italian bread, crumbled</li>
+          <li>1 ½ cups lukewarm water</li>
+          <li>1 cup olive oil</li>
+        </ul>
+      </div>
+        <h4>Step 1</h4>
+        <p>Combine beef, veal, and pork in a large bowl. Mix in cheese, eggs, garlic, parsley, salt, and pepper.</p>
+        <h4>Step 2</h4>
+        <p>Add bread crumbs and slowly mix in water, 1/2 cup at a time, until mixture is moist but still holds its shape (I usually use about 1 1/4 cups of water); shape into meatballs.</p>
+        <h4>Step 3</h4>
+        <p>Heat olive oil in a large skillet; add meatballs in batches and cook until browned on all sides, slightly crisp, and cooked through, about 10 to 15 minutes. Drain on paper towels.</p>
+    </div>
+  </body>
+</html>

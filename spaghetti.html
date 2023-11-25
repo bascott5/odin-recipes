@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <style>
+      body {
+        background-color: lightyellow;
+        margin: 0px 100px 0px 100px;
+      }
+
+      .navbar {
+        background-color: saddlebrown;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+      }
+      .navbar p {
+        display: inline-block;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 20px 0px 20px 0px;
+      }
+      .navbar a {
+        color: white;
+        text-decoration: none;
+        padding: 20px 20px 20px 25px;
+      }
+      .navbar a:hover {
+        background-color: burlywood;
+        color: black;
+      }
+
+      h1 {
+        font-family: Garamond, serif;
+        color: black;
+        font-size: 50px;
+        margin: 100px 0px 0px 0px;
+      }
+
+      .content {
+        float: right;
+        margin: 50px 0px 50px 50px; /*75px 0px 0px 50px*/
+        width: 100%;
+      }
+      .content p {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 10px 0px 20px 0px;
+      }
+      .content h4 {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0px 0px 0px 0px
+      }
+
+      .ingredients {
+        background-color: wheat;
+        float: right;
+        border-radius: 10px;
+        margin: 0px 0px 25px 50px;
+        padding: 25px 25px 25px 25px;
+        width: 25%; /*width: 35%;*/
+        min-width: 200px;
+      }
+      .ingredients h2 {
+        font-family: Garamond, serif;
+        color: black;
+      }
+      .ingredients ul {
+        padding: 0px 0px 0px 0px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .ingredients li {
+        color: black;
+        /*list-style-type: none;*/
+        margin: 10px 0px 0px 25px;
+      }
+
+      img {
+        display: block;
+        margin: 50px auto 0px auto; /*margin: 50px 0px 0px 25px;*/
+        width: 60%;
+        height: 600px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <p><a href="./index.html">Lasagna</a></p>
+      <p><a href="./spaghetti.html">Spaghetti Sauce</a></p>
+      <p><a href="./meatballs.html">Meatballs</a></p>
+    </div>
+    <h1>Homemade Spaghetti Sauce with Ground Beef</h1>
+    <img src="./spagsauce-219845551.jpg" alt="spaghetti sauce" />
+    <div class="content">
+      <div class="ingredients">
+        <ul>
+          <h2>Ingredients</h1>
+          <li>1 pound ground beef</li>
+          <li>1 medium onion, chopped</li>
+          <li>4 cloves garlic, minced</li>
+          <li>1 small green bell pepper, diced</li>
+          <li>1 (28 ounce) can diced tomatoes</li>
+          <li>1 (16 ounce) can tomato sauce</li>
+          <li>1 (6 ounce) can tomato paste</li>
+          <li>2 teaspoons dried oregano</li>
+          <li>2 teaspoons dried basil</li>
+          <li>1 teaspoon salt</li>
+          <li>½ teaspoon ground black pepper</li>
+        </ul>
+      </div>
+        <h4>Step 1</h4>
+        <p>Gather all ingredients.</p>
+        <h4>Step 2</h4>
+        <p>Combine ground beef, onion, garlic, and green pepper in a large saucepan over medium-high heat. Cook and stir until meat is browned and crumbly and vegetables are tender, 5 to 7 minutes. Drain grease.</p>
+        <h4>Step 3</h4>
+        <p>Stir diced tomatoes, tomato sauce, and tomato paste into the pan. Season with oregano, basil, salt, and pepper. Simmer spaghetti sauce for 1 hour, stirring occasionally.</p>
+        <h4>Step 4</h4>
+        <p>Serve hot and enjoy!</p>
+    </div>
+  </body>
+</html>
